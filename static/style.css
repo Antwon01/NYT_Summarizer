@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #003366;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 8px 16px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0055a5;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.article h3 {
+    margin-bottom: 5px;
+}
+
+.article p {
+    line-height: 1.6;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}

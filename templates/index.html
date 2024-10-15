@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Search for Articles</h2>
+{% if error %}
+    <p class="error">{{ error }}</p>
+{% endif %}
+<form action="{{ url_for('summarize') }}" method="post">
+    <label for="query">Enter a topic or keyword:</label>
+    <input type="text" id="query" name="query" required>
+    <button type="submit">Search</button>
+</form>
+{% endblock %}
