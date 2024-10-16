@@ -1,5 +1,7 @@
 Flask==2.3.2
 requests==2.31.0
-transformers==4.34.0
-torch==2.0.1
-tqdm==4.65.0
+transformers==4.30.0
+torch==2.0.0
+python-dotenv==1.0.0
+gunicorn==20.1.0
+numpy==1.23.5
